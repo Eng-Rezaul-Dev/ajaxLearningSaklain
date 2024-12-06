@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post product to server</title>
+</head>
+<body>
+    <h1>Post product to server</h1>
+    <label for="">Product Name </label>
+    <input type="text" id="productName" placeholder="Enter product name" required>
+    <br><br>
+    <label for="">Product code </label>
+    <input type="text" id="productCode" placeholder="Enter product code" required>
+    <br><br>
+    <label for="">Quantity </label>
+    <input type="number" id="qty" placeholder="Enter Quantity" required>
+    <br><br>
+    <label for="">Unit price</label>
+    <input type="number" id="unitPrice" placeholder="Enter unit price" required>
+    <br><br>
+
+    <button onclick="sendDataToBackend()">Create Product</button>
+    <pre id="output2"></pre>
+
+    <script src="./js/script2.js"></script>
+</body>
+</html>
